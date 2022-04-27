@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Orelega+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding:25px; 
+    /* 50px 75px 50px; right50px, bottom75px and left50px sides after the 25px */
+}
+/* here is a comment */
+
+/* h1, h2 p{
+    color:violet;
+}   # This is grouping together a selection # */
+
+/* Changes the margin around your page */
+body{
+    margin:0px;
+    /* opacity:50%; */
+    /* background-image: url("Rust1.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    padding:1%;
+    /* background-size: cover;
+    background-attachment: fixed; #RECOMMENDED TO USE#
+    background-repeat: no-repeat;  */
+}
+
+p{
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    font-size:100px;
+    padding:2%;
+    font-weight: bold;
+}
+h1 {
+    color:black;
+    font-size:100px;
+    font-family: 'Orelega One', cursive;
+}
+
+/* Will still be Blue on other pages */
+.home{
+    color:white;
+}
+
+.center {
+    text-align:center;
+}
+ /* # NOT WORKING ASK KEIRA # */
+.large {
+    font-size: 500%;
+}
+
+.subtitle {
+    color:whitesmoke;
+}
+/* remove background color */
+#nav {
+    display:flex;
+    justify-content: space-evenly; /* right */
+    align-items: center;
+}
+
+#nav a{
+    color:black;
+    font-family: fantasy;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+#nav a:hover{
+    color:whitesmoke;
+}
+
+/* #image or */
+.image {
+    background-image: url("rustindex.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    /* opacity:65%; is an option? */
+    /* Can change to set number using width:100% or width:auto; to adjust to page automatically or use both together width:50%auto; */
+
+}
+
+
+.contact{
+    background-image: url("rustcontact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.about{
+    background-image: url("rustabout.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.rust{
+    width:100%;
+}
+
+.top{
+    color: whitesmoke;
+    font-family: fantasy;
+
+}
+
+.nav1{
+    text-align:right;
+    font-family: fantasy;
+    font-size: 40px;
+    
+
+}
+
+
+
+
+
+
+
+
+
